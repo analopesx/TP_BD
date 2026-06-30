@@ -10,7 +10,7 @@ O sistema simula uma operação de delivery utilizando um banco de dados relacio
 
 ---
 
-## Tecnologias
+## Tecnologias Utilizadas
 
 - MySQL
 - SQL (DDL e DML)
@@ -49,27 +49,30 @@ O banco é composto pelas seguintes tabelas:
 
 ---
 
-## Como executar
+## Arquivos do Projeto
+
+- **create.sql** → criação do banco de dados e das tabelas.
+- **insert.sql** → inserção dos dados de teste.
+- **select.sql** → consultas e relatórios do sistema.
+
+---
+
+## Como Executar
 
 1. Abra o MySQL Workbench (ou outro cliente MySQL).
-2. Execute o arquivo `bd.sql`.
-3. O script irá:
-   - criar o banco Delivery;
-   - criar todas as tabelas;
-   - inserir os dados de teste.
-4. Execute as consultas presentes no arquivo de relatórios para visualizar os resultados.
+2. Execute o arquivo `create.sql`.
+3. Execute o arquivo `insert.sql`.
+4. Execute o arquivo `select.sql` para realizar as consultas e visualizar os resultados.
 
 ---
 
 ## Estrutura do Projeto
 
-```
+```text
 /
-├── bd.sql
-├── consultas.sql
-├── modelo_conceitual.png
-├── modelo_logico.png
-├── Relatorio_Delivery.pdf
+├── create.sql
+├── insert.sql
+├── select.sql
 └── README.md
 ```
 
